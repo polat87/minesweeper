@@ -1,0 +1,156 @@
+*{box-sizing: border-box}
+
+#header, #footer{
+    height: 10vh;
+    background-color: #f7f9f9;    
+    color: #505050;
+}
+
+#main{
+    width: auto;
+    height: 80vh;
+}
+
+#board{
+    width: 36%;
+    font-size: 2em;
+    border: solid #1c0f13 thin;
+}
+
+#left, #right{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    width: 32%;
+    background-color: #e1e5f2;
+}
+
+#left, #board, #right{
+    float: left;
+    height: 100%;
+}
+
+#right{
+    text-align: center;
+}
+
+#footer{
+    clear: left;
+}
+
+.cell {
+    background-color:#d6e5e3;
+    width: 9.08982035928%;
+    height: 9.08982035928%;
+    float: left;
+    border: solid thin;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cell:hover{
+    cursor: pointer;
+}
+
+.edge{
+    border: none;
+    background-color: #8aa29e;
+}
+
+.open{
+    background-color: #eef0f2;
+    border: solid #6d9898 thin;
+    opacity: 0.8;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: darkgoldenrod;
+}
+
+.bomb{
+    background-size: cover;
+    background-image: url("../images/bomb.gif");
+}
+
+#username{
+    color: red;
+}
+
+#game_over_wrapper, #game_finished_wrapper{
+    color:red;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#game_over_wrapper, #game_finished_wrapper {
+    text-align: center;    
+}
+
+.decision{
+    background-color: yellow;
+    color: rgb(16, 172, 16);
+    border-radius: 50px;
+    width: 50%;
+    margin: auto;
+    text-align: center;*7
+}
+
+.flag{
+    background-size: cover;
+    background-image: url("../images/flag.png")
+}
+
+#currentplayer{
+    color: red;
+}
+
+#header{
+        text-align: center;
+        color:0096c7;
+        font-size: 2em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bestenliste{
+    width: 50%;
+    margin: auto;
+}
+
+table td:nth-of-type(1){
+    text-align: left;
+}
+
+table td:nth-of-type(2){
+    text-align: right;
+    font-size: 1.3rem;
+    font-style: unset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    display: block;
+    position: relative;
+    padding-top: 30px;
+}
+
+#hint_img{
+    width: 25px;
+    height: auto;
+}
+
+#hint_text{
+    color: grey;
+    font-size: 1rem;
+}
